@@ -1,4 +1,4 @@
-from us_visa.logger import logging
-from us_visa import exception
+from us_visa.pipeline.training_pipeline import TrainPipeline
 
-logging.info("Hello! this is a test")
+object = TrainPipeline()
+object.run_pipeline()
